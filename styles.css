@@ -6,8 +6,21 @@ h1, h2, h3, p {
             margin: 0.5em 0;
 }
 
-img {
-    float: left;
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.image-container img {
     max-width: 100%;
-    max-height: 150px;
+}
+
+.image-container figcaption {
+    margin-top: 5px;
 }
