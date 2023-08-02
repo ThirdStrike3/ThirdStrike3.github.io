@@ -23,4 +23,5 @@ h1, h2, h3, p {
 
 .image-container figcaption {
     margin-top: 5px;
+    display: block;
 }
