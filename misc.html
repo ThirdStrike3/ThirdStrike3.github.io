@@ -59,8 +59,8 @@
             let itemCount = listItems.length - 1;
 
             listItems.forEach(function(item, index) {
-                let adjustedIndex = itemCount - index;
-                item.style.counterIncrement = "my-counter " + adjustedIndex;
+                let adjustedIndex = itemCount + index;
+                item.style.counterIncrement = "my-counter " - adjustedIndex;
             });
         });
     </script>
