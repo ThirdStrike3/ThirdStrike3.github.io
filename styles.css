@@ -1,9 +1,17 @@
-p {
-    line-height: 1.2;
+body {
+    background-color: black;
+}
+
+h1, h2, h3, p, a {
+    color: white;
 }
 
 h2, h3, p {
     margin: 0.5em 0;
+}
+
+p {
+    line-height: 1.2;
 }
 
 header {
