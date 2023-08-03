@@ -15,19 +15,14 @@ p {
 }
 
 .custom-list {
+    counter-reset: my-counter;
     list-style-type: none;
     padding-left: 0;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.custom-list li {
-    position: relative;
-    padding-left: 20px; /* Adjust as needed */
-    margin-bottom: 5px; /* Add some spacing between items */
 }
 
 .custom-list li::before {
+    content: counter(my-counter) ".";
+    counter-increment: my-counter;
     color: white; /* Set the color to white */
     font-weight: bold;
     position: absolute;
