@@ -58,8 +58,8 @@
             let listItems = list.querySelectorAll("li");
             let itemCount = listItems.length - 1;
 
-            listItems.forEach(function(item, index) {
-                let adjustedIndex = itemCount - index;
+            listItems.forEach(function(item) {
+                let adjustedIndex = itemCount - 1;
                 item.style.counterIncrement = "my-counter " + adjustedIndex;
             });
         });
