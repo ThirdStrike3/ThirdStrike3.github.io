@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-h1, h2, h3, p, a, li {
+h1, h2, h3, p, a, ol, li {
     color: white;
 }
 
