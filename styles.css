@@ -14,10 +14,19 @@ p {
     line-height: 1.2;
 }
 
+ol {
+    counter-reset: my-counter;
+    list-style-type: none;
+    padding-left: 0;
+}
+
 li::before {
+    content: counter(my-counter);
+    counter-increment: my-counter;
     color: white;
     font-weight: bold;
-}   
+    margin-right: 5px;
+}
 
 header {
     text-align: center;
