@@ -56,7 +56,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             let list = document.querySelector(".custom-list");
             let listItems = list.querySelectorAll("li");
-            let itemCount = listItems.length;
+            let itemCount = listItems.length - 1;
 
             listItems.forEach(function(item, index) {
                 let adjustedIndex = itemCount - index;
