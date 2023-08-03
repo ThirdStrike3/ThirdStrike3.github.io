@@ -14,16 +14,16 @@ p {
     line-height: 1.2;
 }
 
-ol {
+.custom-list {
     counter-reset: my-counter;
     list-style-type: none;
     padding-left: 0;
 }
 
-li::before {
+.custom-list li::before {
     content: counter(my-counter);
     counter-increment: my-counter;
-    color: white;
+    color: white; /* Set the color to white */
     font-weight: bold;
     margin-right: 5px;
 }
