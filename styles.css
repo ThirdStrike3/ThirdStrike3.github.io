@@ -38,3 +38,7 @@ header {
     margin-top: 5px;
     display: block;
 }
+
+.rating {
+    color: #FFD700;
+}
