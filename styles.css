@@ -2,9 +2,14 @@ p {
     line-height: 1.2;
 }
 
-h1, h2, h3, p, header {
+h1, h2, h3, p {
     width: 50%;
     margin: 0.5em 0;
+}
+
+header {
+    width: 50%;
+    margin: 0 auto;
 }
 
 .content {
