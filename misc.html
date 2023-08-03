@@ -51,18 +51,5 @@
             <p>Explanation of why this entry is considered the absolute worst Royal Rumble spot.</p>
         </li>
     </ol>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            let list = document.querySelector(".custom-list");
-            let listItems = list.querySelectorAll("li");
-            let itemCount = listItems.length - 1;
-
-            listItems.forEach(function(item, index) {
-                let adjustedIndex = itemCount + index;
-                item.style.counterIncrement = 11 - ("my-counter " + adjustedIndex);
-            });
-        });
-    </script>
 </body>
 </html>

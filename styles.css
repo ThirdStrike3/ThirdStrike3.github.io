@@ -14,21 +14,6 @@ p {
     line-height: 1.2;
 }
 
-.custom-list {
-    counter-reset: my-counter;
-    list-style-type: none;
-    padding-left: 5;
-}
-
-.custom-list li::before {
-    content: counter(my-counter) ".";
-    counter-increment: my-counter;
-    color: white; /* Set the color to white */
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-}
-
 header {
     text-align: center;
 }
