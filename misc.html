@@ -9,7 +9,7 @@
     <header>
         <h1>Top Ten Worst Royal Rumble Spots</h1>
     </header>
-    <ol class="custom-list">
+    <ol reversed class="custom-list">
         <li>
             <h2>The rope pull elimination spot in the Women's Rumble</h2>
             <p>This one is a key offender since the women's Rumble got introduced in 2018. The men's Rumble has always had some variation of a spot where a wrestler runs towards another wrestler near the ropes, who then pulls down the top rope, sending the running wrestler flipping over it and to the ground outside. This is actually how Jim Duggan won the first ever Rumble, and it looked good because he's a big guy and could actually get the top rope down relatively low. You know who doesn't have the weight to get the top rope down low? Most women's wrestlers, yet the WWE is so fucking lazy with women's Rumble booking that they book them to do the exact same spot in the exact same way! This means that someone like Lita or Sasha Banks tries to pull the rope down, gets absolutely nowhere with it, and their opponent has to majestically vault all the way over and essentially eliminate themself in a spot that looks awful. Low on the list because it's not that common of a spot.</p>
@@ -51,5 +51,18 @@
             <p>Explanation of why this entry is considered the absolute worst Royal Rumble spot.</p>
         </li>
     </ol>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let list = document.querySelector(".custom-list");
+            let listItems = list.querySelectorAll("li");
+            let itemCount = listItems.length;
+
+            listItems.forEach(function(item, index) {
+                let adjustedIndex = itemCount - index;
+                item.style.counterIncrement = "my-counter " + adjustedIndex;
+            });
+        });
+    </script>
 </body>
 </html>
