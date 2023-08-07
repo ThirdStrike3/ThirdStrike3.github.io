@@ -41,3 +41,16 @@ header {
 .rating {
     color: #FFD700;
 }
+
+.decade {
+    margin: 10px 0;
+}
+
+.year {
+    display: none;
+    margin-left: 20px;
+}
+
+.decade:hover .year {
+    display: block;
+}
