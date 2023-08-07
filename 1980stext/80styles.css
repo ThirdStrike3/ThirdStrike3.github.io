@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+h1, h2, h3, p, a {
+    color: white;
+}
+
+h2, h3, p {
+    margin: 0.5em 0;
+}
+
+p {
+    line-height: 1.2;
+}
+
+header {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.image-container figcaption {
+    margin-top: 5px;
+    display: block;
+}
+
+.rating {
+    color: #FFD700;
+}
+
+.decade {
+    margin: 10px 0;
+}
+
+.year {
+    display: none;
+    margin-left: 20px;
+}
+
+.decade:hover .year {
+    display: block;
+}
