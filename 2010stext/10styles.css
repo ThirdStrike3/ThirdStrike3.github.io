@@ -26,6 +26,8 @@ header, h1, h2, h3 {
 .left-image {
     float: left; /* Float the image to the left */
     margin-right: 10px; /* Add some margin to create space between the image and text */
+    max-width: 100%; /* Set the maximum width to 100% of its container */
+    height: auto; /* Allow the height to adjust proportionally to maintain aspect ratio */
 }
 
 .rating {
