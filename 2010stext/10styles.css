@@ -23,15 +23,11 @@ header, h1, h2, h3 {
     align-items: flex-start;
 }
 
-.image-container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    height: 100px; /* Set a height for the container; adjust as needed */
-}
-
-.image-container img {
+.img {
+    position: absolute;
+    right: 50%;
     max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    max-height: 100%; /* Ensure the image doesn't exceed its container's height */
+    max-height: 100px; /* Ensure the image doesn't exceed its container's height */
 }
 
 .rating {
