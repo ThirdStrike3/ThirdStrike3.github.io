@@ -14,7 +14,7 @@ p {
     line-height: 1.2;
 }
 
-header {
+header, h1, h2, h3 {
     text-align: center;
 }
 
@@ -23,34 +23,13 @@ header {
     align-items: flex-start;
 }
 
-.image-container {
-    display: flex;
-    flex-direction: column;
-    margin-right: 10px;
-}
-
-.image-container img {
-    max-width: 100%;
-}
-
-.image-container figcaption {
-    margin-top: 5px;
-    display: block;
+.img {
+    position: absolute;
+    right: 50%;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 100px; /* Ensure the image doesn't exceed its container's height */
 }
 
 .rating {
     color: #FFD700;
-}
-
-.decade {
-    margin: 10px 0;
-}
-
-.year {
-    display: none;
-    margin-left: 20px;
-}
-
-.decade:hover .year {
-    display: block;
 }
