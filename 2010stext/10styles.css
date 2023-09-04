@@ -19,8 +19,6 @@ header, h1, h2, h3 {
 }
 
 .matchgraphic {
-    display: flex;
-    justify-content: center;
     align-items: center;
     height: 100px;
     max-width: 100%;
