@@ -23,7 +23,7 @@ header, h1, h2, h3 {
     align-items: flex-start;
 }
 
-.img {
+.matchgraphic {
     display: flex;
     justify-content: center;
     align-items: center;
