@@ -24,10 +24,11 @@ header, h1, h2, h3 {
 }
 
 .img {
-    position: absolute;
-    right: 50%;
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    max-height: 100px; /* Ensure the image doesn't exceed its container's height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    max-width: 100%;
 }
 
 .rating {
